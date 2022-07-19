@@ -2,7 +2,7 @@
     padding: 0 0 5rem 0;
 }
 
-.companies__logo-box {
+.companies-logo {
     max-width: 100%;
     height: 3rem;
     margin-bottom: 2rem;
@@ -11,10 +11,11 @@
     position: relative;
 }
 
-.companies__logo-box img {
+.companies-logo img {
     height: 100%;
 }
 
-.companies__logo-box img:hover {
+.companies-logo img:hover {
     filter: grayscale(120);
+    transition: ease-in-out 0.3s;
 }
