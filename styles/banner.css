@@ -1,0 +1,13 @@
+.banner-section {
+    background-image: url("../images/bg-banner.jpg");
+    width: 100%;
+    height: calc(100vh - 76px);
+    margin-top: 76px;
+    background-size: cover;
+    color: white;
+  }
+
+  .banner-section .content {
+    background-color: rgb(0, 0, 0, 0.5);
+    text-align: center;
+  }

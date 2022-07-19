@@ -1,0 +1,26 @@
+:root {
+    --blue-dark:  #00171F;
+    --blue-dark-opa-75:  #00171fc6;
+    --blue-light:  #003459;
+    --ocean-dark:    #007EA7;
+    --ocean-light: #00A8E8;
+    --rating-color: #ff7b00;
+
+    --gradient: linear-gradient(to right, rgba(0, 23, 31, 0.95), rgba(0, 52, 89, 0.95));
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--blue-light);
+}
+
+.gradient {
+    background: var(--gradient);
+}
+
+.form-control:focus, .form-control:active {
+    outline: none;
+}

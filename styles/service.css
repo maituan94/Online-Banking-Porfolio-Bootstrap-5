@@ -1,0 +1,71 @@
+.border-right {
+    border-right: 0;
+}
+
+@media (min-width: 576px) {
+    .border-right {
+        border-right: 0.1rem solid #dee2e6;
+        height: 100%;
+    }
+}
+
+.service-section {
+    position: relative;
+    padding: 1rem 0;
+}
+
+.service-section .content {
+    padding: 1rem;
+    margin-top: 0;
+}
+
+.service-section .content p {
+    font-size: 0.8rem;
+}
+
+@media (min-width: 992px) {
+    .service-section .content p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .service-section .content {
+        margin-top: 5rem;
+    }
+}
+
+.service-section .content .icon {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+@media (min-width: 992px) {
+    .service-section .content .icon {
+        font-size: 2.5rem;
+    }
+}
+
+.service-section .background-service {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+@media (min-width: 992px) {
+    .service-section .background-service {
+        height: 400px;
+    }
+}
+
+.service-section .background-service.one {
+    background-image: url("../images/services/service-1.jpg");
+}
+
+.service-section .background-service.two {
+    background-image: url("../images/services/service-2.jpg");
+}
+
+.service-section .background-service.three {
+    background-image: url("../images/services/service-3.jpg");
+}
